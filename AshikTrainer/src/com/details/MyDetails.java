@@ -1,17 +1,18 @@
 package com.details;
 
 public class MyDetails {
-	public static void main(String[] args) {
+	static public  void main(String[] args) {
 		System.out.println("Bio Data");
 		System.out.println("--------");
-
+		
+		//details
 		String name = "J ABDUL MALIK";
 		byte age = 19;
 		String dob = "20/06/2004";
 		long phNo = 7904941024l;
 		String mail = "j.abdmalik20@gmail.com";
 		long regNo = 311821105001l;
-		String deptName = " ELECTRICAL AND ELECTRONICS ENGINEERING";
+		String deptName = "ELECTRICAL AND ELECTRONICS ENGINEERING";
 		short collegeCode = 3118;
 		short passOut = 2025;
 		int collegeId = 232323232;
@@ -22,7 +23,8 @@ public class MyDetails {
 		float cgpa = 7.89f;
 		double hscMark = 513.47;
 		boolean accept = true;
-
+		
+		//Print
 		System.out.println("NAME : " + name);
 		System.out.println("AGE : " + age);
 		System.out.println("DOB : " + dob);
