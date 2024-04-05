@@ -1,6 +1,8 @@
 package org.company;
 
-public class Company {
+import org.client.Client;
+
+public class Company extends Client {
 	private void companyName() {
 		System.out.println("Company Name : dotSculptor");
 	}
@@ -19,6 +21,8 @@ public class Company {
 		c.companyName();
 		c.companyId();
 		c.companyAddress();
+		
+		c.clientName();
 	}
 
 }
