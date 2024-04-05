@@ -17,6 +17,14 @@ public class BankInfo {
 		System.out.println("Bank Address : Sivagangai 630561");
 	}
 
+	public void saving() {
+		System.out.println("Saving : 20000");
+	}
+
+	public void fixed() {
+		System.out.println("Fixed : 30000");
+	}
+
 	public static void main(String[] args) {
 		BankInfo b = new BankInfo();
 		b.fullName();
