@@ -1,4 +1,4 @@
-package org.info;
+package com.info;
 
 import com.msajce.FacultyDetails;
 import com.msajce.StudentDetails;
