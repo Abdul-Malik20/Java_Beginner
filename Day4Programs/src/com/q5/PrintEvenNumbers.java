@@ -7,12 +7,7 @@ public class PrintEvenNumbers {
             // Check if the number is even
             if (i % 2 == 0) {
                 // If it's even, print the number
-                System.out.print(i);
-
-                // Add comma if not the last even number
-                if (i != 100 - 1) {
-                    System.out.print(",");
-                }
+                System.out.print(i+",");
             }
         }
     }
