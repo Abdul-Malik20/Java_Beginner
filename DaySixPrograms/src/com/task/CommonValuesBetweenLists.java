@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class CommonValuesBetweenLists {
     public static void main(String[] args) {
         // Input lists
-        ArrayList<Integer> list1 = new ArrayList<>();
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
         list1.add(10);
         list1.add(20);
         list1.add(30);
@@ -15,7 +15,7 @@ public class CommonValuesBetweenLists {
         list1.add(40);
         list1.add(50);
         
-        ArrayList<Integer> list2 = new ArrayList<>();
+        ArrayList<Integer> list2 = new ArrayList<Integer>();
         list2.add(30);
         list2.add(40);
         list2.add(50);
