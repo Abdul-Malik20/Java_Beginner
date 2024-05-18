@@ -19,6 +19,7 @@ public class RemoveAll {
         list2.add(100);
         list2.add(200);
         list2.add(300);
+        list2.add(10);
         list2.add(400);
         list2.add(500);
         list2.add(600);
@@ -26,9 +27,9 @@ public class RemoveAll {
         list2.add(8000);
         
         // Perform removeAll operation
-        list1.removeAll(list2);
+        list2.removeAll(list1);
         
         // Print the updated list1
-        System.out.println("List1 after removing common values with list2: " + list1);
+        System.out.println("List1 after removing common values with list2: " + list2);
     }
 }
