@@ -17,7 +17,7 @@ public class IndexesOfElement {
         list.add(10);
         
         // Find and print each index value of 10
-        for (int i = 0; i < list.size(); i++) {
+         for (int i = 0; i < list.size(); i++) {
             if (list.get(i) == 10) {
                 System.out.println("Index value of 10: " + i);
             }
