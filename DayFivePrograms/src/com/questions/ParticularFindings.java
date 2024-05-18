@@ -3,6 +3,7 @@ package com.questions;
 public class ParticularFindings {
 	public static void main(String[] args) {
 //1
+		
 		String s1 = "SoftwareTestEngineer";
 		int indexOf = s1.indexOf("e");
 		System.out.println("Question 1 : "+s1.charAt(indexOf));

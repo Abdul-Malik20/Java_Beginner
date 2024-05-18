@@ -7,8 +7,8 @@ public class UppercaseConverter {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter a word: ");
 		String input = scanner.nextLine();
-		String lowercaseWord = input.toUpperCase();
-		System.out.println("Output: " + lowercaseWord);
+		String upperCase = input.toUpperCase();
+		System.out.println("Output: " + upperCase);
 		scanner.close();
 	}
 }
