@@ -1,3 +1,7 @@
+//This code co ntains error 
+
+
+
 package com.inheritance;
 
 public class MultipleInheriChild extends MultipleInheriP1,MultipleInheriP2 {
